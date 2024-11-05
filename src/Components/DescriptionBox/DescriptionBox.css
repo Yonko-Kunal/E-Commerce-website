@@ -30,3 +30,11 @@
     padding: 48px;
     padding-bottom: 70px;
 }
+@media(max-width:500px){
+    .descriptionBox{
+        margin: 60px 20px;
+    }
+    .descriptionBox-description{
+        font-size: 14px;
+    }
+}

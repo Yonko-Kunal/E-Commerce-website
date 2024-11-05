@@ -70,3 +70,31 @@
     font-size: 18px;
     font-weight: 500;
 }
+@media(max-width:800px){
+    .loginSignup{
+        padding-top: 50px;
+    }
+    .loginSignup-container{
+        width: auto;
+        padding: 20px 30px;
+    }
+    .loginSignup-container h1{
+        font-size: 24px;
+    }
+    .loginSignup-fields{
+        margin-top: 20px;
+    }
+    .loginSignup-fields input{
+        height: 50px;
+        width: 420px;
+    }
+    .loginSignup-container button{
+        height: 50px;
+        font-size: 16px;
+        width: 440px;
+    }
+    .loginSignp-login{
+        font-size: 16px;
+    }
+     
+}

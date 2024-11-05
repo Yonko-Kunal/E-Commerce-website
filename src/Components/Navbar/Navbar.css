@@ -78,3 +78,88 @@
     background: red;
     color: white;
 }
+.nav-dropdown{
+    display: none;
+}
+    
+@media(max-width:1280px){
+    .nav-bar{
+        padding: 12px 50px;
+    }
+    .nav-logo h1{
+        font-size: 25px;
+    }
+    .nav-list{
+        gap: 30px;
+        font: 16px;
+    }
+    .nav-right img{
+        gap: 30px;
+    }
+    .nav-right button{
+        width: 120px;
+        height: 45px;
+        font-size: 16px;
+    }
+    .nav-cart-count{
+        margin-left: -40px;
+        font-size: 12px;
+    }
+}
+@media(max-width:1024px) {
+    .nav-bar{
+        padding: 12px 30px;
+    }
+    .nav-list{
+        gap: 25px;
+        font: 14px;
+    }
+    .nav-right img{
+        width: 30px;
+    }
+    .nav-cart-count{
+       width: 18px;
+       height: 18px;
+    }
+    .nav-right button{
+        width: 80px;
+        height: 35px;
+        font-size: 14px;
+    }
+}
+
+@media(max-width:500px){
+    .nav-bar{
+        padding: 8px;
+        gap: 0px;
+    }
+    .nav-list{
+        display: none;
+        height: 70px;
+        top: 75px;
+        right: 1px;
+        width: 100%;
+        position: absolute;
+        background-color: white;
+        justify-content: center;
+        
+    }
+    .nav-right button{
+        transform: scale(0.8);
+    }
+    .nav-dropdown{
+        display: block;
+        width: 30px;
+        rotate: -90deg;
+        transition: 0.5s;
+    }
+    .nav-menu-visible{
+        display: flex;
+    }
+    .nav-dropdown.open{
+        transform: rotate(90deg);
+    }
+    .nav-logo{
+        padding-left: 40px;
+    }
+}
