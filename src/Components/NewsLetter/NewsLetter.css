@@ -55,3 +55,34 @@
     border: none;
     margin-right: 4px;
 }
+@media(max-width:500px){
+   .newsLetter{
+    height: 25vh;
+    width: 100%;
+    padding: 0%;
+    gap: 15px;
+   } 
+   .newsLetter h1{
+    font-size: 16px;
+   }
+   .newsLetter p{
+    font-size: 13px;
+    max-width: 200px;
+    text-align: center;
+   }
+   .newsLetter div{
+    width: 290px;
+    height: 40px;
+   }
+   .newsLetterInput{
+    width: 130px;
+    font-size: 13px;
+   }
+   .newsLetter div button{
+    width: 100px;
+    height: 40px;
+    font-size: 13px;
+    padding: 6px;
+   }
+
+}

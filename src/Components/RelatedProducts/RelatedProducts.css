@@ -17,3 +17,13 @@
     display: flex;
     gap: 30px;
 }
+@media(max-width:500px){
+    .relatedProducts{
+        height: 90vh;
+    }
+    .relatedProducts-item{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+}

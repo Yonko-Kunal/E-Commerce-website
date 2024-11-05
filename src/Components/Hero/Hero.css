@@ -1,5 +1,5 @@
 .hero {
-    height: 100vh;
+    height: 70vh;
     display: flex;
     background: rgb(255, 255, 255);
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.3029586834733894) 0%, rgba(250, 237, 88, 0.4542191876750701) 100%);
@@ -11,7 +11,7 @@
     flex-direction: column;
     justify-content: center;
     gap: 1.2rem;
-    padding-left: 10rem;
+    padding-left: 3rem;
     line-height: 1.1;
 }
 
@@ -46,4 +46,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media(max-width:500px){
+    .hero{
+        flex-direction: column;
+    }
+    .hero-right{
+        display: none;
+    }
+    .hero-left h2{
+        font-size: 18px;
+    }
+    .hero-left p{
+        font-size: 50px;
+    }
+   .hero-latest-button{
+    width: 200px;
+    height: 45px;
+    font-size: 14px;
+   }
 }
