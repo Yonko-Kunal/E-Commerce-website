@@ -2,10 +2,5 @@
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://raw.githubusercontent.com/Yonko-Kunal/E-Commerce-website/main/Archean/E-Commerce-website.zip) uses [Babel](https://raw.githubusercontent.com/Yonko-Kunal/E-Commerce-website/main/Archean/E-Commerce-website.zip) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://raw.githubusercontent.com/Yonko-Kunal/E-Commerce-website/main/Archean/E-Commerce-website.zip) uses [SWC](https://raw.githubusercontent.com/Yonko-Kunal/E-Commerce-website/main/Archean/E-Commerce-website.zip) for Fast Refresh
-
-
-live link ----> https://raw.githubusercontent.com/Yonko-Kunal/E-Commerce-website/main/Archean/E-Commerce-website.zip
+live link ----> [Demo](https://yonko-ecommerce.netlify.app/)
